@@ -4,9 +4,10 @@
   <b>Reverse a String</b> 
 </summary>
 <br>
-- Difficulty Level : Easy<br>
-- Question : Have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. For example: if the input string is "Hello World and Coders" then your program should return the string sredoC dna dlroW olleH.<br>
-- Use the Parameter Testing feature in the box below to test your code with different arguments.<br>
+Difficulty Level : Easy<br>
+Question : Have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. For example: if the input string is "Hello World and Coders" then your program should return the string sredoC dna dlroW olleH.<br>
+Use the Parameter Testing feature in the box below to test your code with different arguments.<br>
+  
   
 ```js
 function FirstReverse(str) { 
@@ -25,6 +26,9 @@ function FirstReverse(str) {
 console.log(FirstReverse('Coderbyte is really awesome!'));
 
 ```
+<br>
+
+Note : Loops and recursion can also be used here
 
 
 </details>
