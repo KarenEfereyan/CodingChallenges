@@ -14,12 +14,12 @@ function FirstReverse(str) {
   /** Steps
   1. Break string into array of individual chars
   2. Use reverse() method to transpose order
-  3. Join the individual characters using join() and turn to string with .toString()
+  3. Join the individual characters back into a string using join() method
   **/
 
   // code goes here
   const chars = str.split('')  
-  return chars.reverse().join().toString(); 
+  return chars.reverse().join(''); 
 
 }
 console.log(FirstReverse('Coderbyte is really awesome!'));
