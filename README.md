@@ -91,4 +91,17 @@ function Factorial(num){
 }
 console.log("Factorial", Factorial(2));
 ``` 
+
+<b>3. For Loop </b>
+```js
+function Factorial(num){
+  if(num <= 1) return 1;
+  
+  for(let i = num-1; i>=1; i--){
+    num*=i;
+  }
+  return num;
+}
+console.log(Factorial(5));
+```
 </details>
