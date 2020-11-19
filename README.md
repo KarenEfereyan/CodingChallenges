@@ -64,7 +64,9 @@ function FirstReverse(str) {
 <b>Factorial of a number</b>
 </summary>
 <br>
-Difficulty Level : Easy
+Difficulty Level : Easy<br>
+Question : Have the function FirstFactorial(num) take the num parameter being passed and return the factorial of it. For example: if num = 4, then your program should return (4 * 3 * 2 * 1) = 24. For the test cases, the range will be between 1 and 18 and the input will always be an integer.
+
 
 
 <b>1. While Loop</b>
@@ -95,13 +97,17 @@ console.log("Recursive Factorial", Factorial(2));
 <b>3. For Loop </b>
 ```js
 function Factorial(num){
-  if(num <= 1) return 1;
+  function Factorial(num){
+  if(num <= 1) 
+  {return 1;
+  }
   
-  for(let i = num-1; i >= 1; i--){
+  for(let i = num-1; i>=1; i--){
     num = num * i;
   }
   return num;
 }
+ 
 console.log("Loop Factorial", Factorial(5));
 ```
 </details>
