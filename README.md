@@ -35,7 +35,7 @@ function FirstReverse(str) {
       /** Steps
       1. Create new empty string to hold reversed input string
       2. Loop through the array from the last string character to the first and for each char, add it to the reversed string
-     3. Return reversed string 
+      3. Return reversed string 
      **/  
     
    let reversed = "";
@@ -47,7 +47,15 @@ function FirstReverse(str) {
       
   console.log("Loop reversal", FirstReverse('Coderbyte is really awesome!'))
   ```
-Note : Loops and recursion can also be used here
-
+3. <b>Using Recursion</b>
+```js
+ function reverseString(str) {
+    if (str === "")
+      return "";
+    else
+      return reverseString(str.substr(1)) + str.charAt(0);
+  }
+ console.log("Recursion reversal", reverseString('Coderbyte is really awesome!'));
+ ```
 
 </details>
