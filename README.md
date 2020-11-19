@@ -89,7 +89,7 @@ console.log("While Factorial", Factorial(5))
 function Factorial(num){
   return num <= 1 ? 1 : num * Factorial(num - 1)
 }
-console.log("Factorial", Factorial(2));
+console.log("Recursive Factorial", Factorial(2));
 ``` 
 
 <b>3. For Loop </b>
@@ -97,11 +97,11 @@ console.log("Factorial", Factorial(2));
 function Factorial(num){
   if(num <= 1) return 1;
   
-  for(let i = num-1; i>=1; i--){
-    num*=i;
+  for(let i = num-1; i >= 1; i--){
+    num = num * i;
   }
   return num;
 }
-console.log(Factorial(5));
+console.log("Loop Factorial", Factorial(5));
 ```
 </details>
