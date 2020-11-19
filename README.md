@@ -26,7 +26,6 @@ function FirstReverse(str) {
   console.log(FirstReverse('Coderbyte is really awesome!'));
 
 ```
-<br>
 
 2. <b>Using loops</b>
    
@@ -58,4 +57,19 @@ function FirstReverse(str) {
  console.log("Recursion reversal", reverseString('Coderbyte is really awesome!'));
  ```
 
+</details>
+
+<details>
+<summary>
+Factorial of a number
+</summary>
+<br>
+Difficulty Level : Easy
+
+```js
+function Factorial(num){
+  return num <= 1 ? num : num * Factorial(num - 1)
+}
+console.log("Factorial", Factorial(2));
+``` 
 </details>
