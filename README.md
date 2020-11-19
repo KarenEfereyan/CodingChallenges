@@ -8,7 +8,7 @@ Difficulty Level : Easy<br>
 Question : Have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. For example: if the input string is "Hello World and Coders" then your program should return the string sredoC dna dlroW olleH.<br>
 Use the Parameter Testing feature in the box below to test your code with different arguments.<br>
   
-  
+1. <b>Using Javascript Built-in functions</b>  
 ```js
 function FirstReverse(str) { 
                             
@@ -28,6 +28,25 @@ function FirstReverse(str) {
 ```
 <br>
 
+2. <b>Using loops</b>
+   
+ ```js
+  function FirstReverse(str){
+      /** Steps
+      1. Create new empty string to hold reversed input string
+      2. Loop through the array from the last string character to the first and for each char, add it to the reversed string
+     3. Return reversed string 
+     **/  
+    
+   let reversed = "";
+      for(i=str.length-1; i>0; i--){
+       reversed +=str[i];
+  }
+      return reversed;
+}
+      
+  console.log("Loop reversal", FirstReverse('Coderbyte is really awesome!'))
+  ```
 Note : Loops and recursion can also be used here
 
 
