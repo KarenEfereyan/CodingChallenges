@@ -66,9 +66,28 @@ function FirstReverse(str) {
 <br>
 Difficulty Level : Easy
 
+
+<b>1. While Loop</b>
+
 ```js
 function Factorial(num){
-  return num <= 1 ? num : num * Factorial(num - 1)
+  let result = num;
+  if(num <= 1){
+    return 1
+  }
+  while(num > 1){
+    num --;
+    result *= num;
+  }
+  return result;
+}
+console.log("While Factorial", Factorial(5))
+```
+
+<b>2. With Recursion</b>
+```js
+function Factorial(num){
+  return num <= 1 ? 1 : num * Factorial(num - 1)
 }
 console.log("Factorial", Factorial(2));
 ``` 
