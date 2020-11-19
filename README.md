@@ -61,7 +61,7 @@ function FirstReverse(str) {
 
 <details>
 <summary>
-Factorial of a number
+<b>Factorial of a number</b>
 </summary>
 <br>
 Difficulty Level : Easy
